@@ -36,11 +36,11 @@ const App = () => {
 
 
 
-//   useEffect(() => {
-//     configureNotifications()
+  useEffect(() => {
+    configureNotifications()
 
     
-//   }, [val]);
+  }, [val]);
 
 
  
@@ -102,7 +102,7 @@ PushNotification.createChannel(
     vibrate: true,
     repeatType: 'minute',
   },
-  (created) => console.log(`Create channel returned '${created}'`)
+  (created) => console.log(`Create channel returned!ß '${created}'`)
 );
 
 export default App;
