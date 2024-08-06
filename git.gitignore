@@ -1,0 +1,17 @@
+# dependencies
+/node_modules
+
+# iOS
+/ios/Pods/
+/ios/build/
+/ios/*.xcworkspace
+/ios/*.xcuserdatad
+
+# Android
+/android/.gradle
+/android/app/build/
+/android/build/
+
+# misc
+.DS_Store
+.env
